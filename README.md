@@ -5,10 +5,9 @@ Victor Alberto Romero's Curriculum Vitae
 
 Compile with:
 
-''' make <option> LANG=xx
-'''
+    make <opt> LANG=xx
 
-<option> can be _pdf_, _clean_ or _all_. xx is the code for the support language to compile.
+<opt> can be _pdf_, _clean_ or _all_. xx is the code for the support language to compile.
 
 ## PO4A - Translate
 
@@ -20,7 +19,8 @@ This section presents the needed steps required to begin a new translation with 
 To begin a new translation using po4a, you have to do the following steps:
 
 * Extract the text which have to be translated from the original <master.doc> document into a new translation template <translation.pot> file (the gettext format). For that, use the po4a-gettextize program this way:
-  $ po4a-gettextize -f <format> -m <master.doc> -p <translation.pot>
+
+    $ po4a-gettextize -f <format> -m <master.doc> -p <translation.pot>
 
 <format> is naturally the format used in the master.doc document. As expected, the output goes into translation.pot. Please refer to po4a-gettextize(1) for more details about the existing options.
 
@@ -33,7 +33,8 @@ If you wish to learn more about this, you definitively need to refer to the gett
 ### HOWTO change the translation back to a documentation file?
 
 Once you're done with the translation, you want to get the translated documentation and distribute it to users along with the original one. For that, use the po4a-translate(1) program like that (where XX is the language code):
-  $ po4a-translate -f <format> -m <master.doc> -p <doc.XX.po> -l <XX.doc>
+
+    $ po4a-translate -f <format> -m <master.doc> -p <doc.XX.po> -l <XX.doc>
 
 As before, <format> is the format used in the master.doc document. But this time, the PO file provided with the -p flag is part of the input. This is your translation. The output goes into XX.doc.
 
@@ -42,7 +43,8 @@ Please refer to po4a-translate(1) for more details.
 ### HOWTO update a po4a translation?
 
 To update your translation when the original master.doc file has changed, use the po4a-updatepo(1) program like that:
-  $ po4a-updatepo -f <format> -m <new_master.doc> -p <old_doc.XX.po>
+
+    $ po4a-updatepo -f <format> -m <new_master.doc> -p <old_doc.XX.po>
 
 (Please refer to po4a-updatepo(1) for more details)
 
