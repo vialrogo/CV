@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: Victor Alberto Romero\n"
-"POT-Creation-Date: 2015-06-08 11:58-0300\n"
-"PO-Revision-Date: 2015-06-08 11:55-0300\n"
+"POT-Creation-Date: 2015-06-08 14:57-0300\n"
+"PO-Revision-Date: 2015-06-08 14:58-0300\n"
 "Last-Translator: Romero <vialrogo@gmail.com>\n"
 "Language-Team: Espanhol; Castelhano <>\n"
 "Language: \n"
@@ -82,7 +82,7 @@ msgstr "Avenida Jaguaré, 287. Bloco Andrea, apartamento 33"
 
 #. type: tabular
 #: cv.pt.tex:42
-msgid "\\textsc{Telefono:}"
+msgid "\\textsc{Telefone:}"
 msgstr "\\textsc{Teléfono:}"
 
 #. type: tabular
@@ -129,7 +129,7 @@ msgstr "\\textsc{Ago~-~Dic 2012}"
 #. type: tabular
 #: cv.pt.tex:54
 msgid "{Professor da disciplina Arquitetura de Computadores I.}"
-msgstr "{Profesor de la materia Arqutectura de Computadores I.}"
+msgstr "{Profesor de la materia Arquitectura de Computadores I.}"
 
 #. type: tabular
 #: cv.pt.tex:57
@@ -152,7 +152,7 @@ msgstr "{Administración de software y hardware. Soporte en contabilidad.}"
 #. type: section{#2}
 #: cv.pt.tex:63
 msgid "Estágios"
-msgstr "Monitorías"
+msgstr "Monitorias"
 
 #. type: tabular
 #: cv.pt.tex:66
@@ -248,7 +248,7 @@ msgstr ""
 #. type: tabular
 #: cv.pt.tex:93
 msgid "Incompleto | Ênfase: Otimização"
-msgstr "Incompleto | Éfasis: Optimización"
+msgstr "Incompleto | Énfasis: Optimización"
 
 #. type: tabular
 #: cv.pt.tex:93
@@ -310,7 +310,7 @@ msgstr "\\textsc{Ago 2010}"
 msgid ""
 "\\textsc{Graduação em Engenharia Eletrônica}, Universidad del Valle, Colômbia"
 msgstr ""
-"\\textsc{Pregrado en Ingeniería Eletrónica}, Universidad del Valle, Colombia"
+"\\textsc{Pregrado en Ingeniería Electrónica}, Universidad del Valle, Colombia"
 
 #. type: tabular
 #: cv.pt.tex:106
@@ -353,8 +353,8 @@ msgstr ""
 
 #. type: tabular
 #: cv.pt.tex:116
-msgid "Universidade del Valle, Colômbia"
-msgstr "Universidade del Valle, Colombia"
+msgid "Universidad del Valle, Colômbia"
+msgstr "Universidad del Valle, Colombia"
 
 #. type: tabular
 #: cv.pt.tex:116
@@ -378,7 +378,7 @@ msgid ""
 "Estímulos por alto rendimento acadêmico \\footnotesize(Melhor média de "
 "notas: 4.36 de 5)"
 msgstr ""
-"Estímulos por alto rendimiento académico \\footnotesize(Mejor média de "
+"Estímulos por alto rendimiento académico \\footnotesize(Mejor media de "
 "notas: 4.36 de 5)"
 
 #. type: tabular
@@ -388,16 +388,31 @@ msgstr "\\textsc{Jun 2010}"
 
 #. type: tabular
 #: cv.pt.tex:127
+#| msgid ""
+#| "Estímulos por alto rendimento acadêmico \\footnotesize(Melhor média de "
+#| "notas: 4.36 de 5)"
+msgid ""
+"Estímulos por alto rendimento acadêmico \\footnotesize(Melhor média de "
+"notas: 4.41 de 5)"
+msgstr ""
+"Estímulos por alto rendimiento académico \\footnotesize(Mejor media de "
+"notas: 4.36 de 5)"
+
+#. type: tabular
+#: cv.pt.tex:127
 msgid "\\textsc{Dez 2005}"
 msgstr "\\textsc{Dic 2005}"
 
 #. type: tabular
 #: cv.pt.tex:127
+#| msgid ""
+#| "Estímulos por alto rendimento acadêmico \\footnotesize(Terceira melhor "
+#| "média de notas: 4.36 de 5)"
 msgid ""
 "Estímulos por alto rendimento acadêmico \\footnotesize(Terceira melhor média "
-"de notas: 4.36 de 5)"
+"de notas: 4.42 de 5)"
 msgstr ""
-"Estímulos por alto rendimiento académico \\footnotesize(Tercera mejor média "
+"Estímulos por alto rendimiento académico \\footnotesize(Tercera mejor media "
 "de notas: 4.36 de 5)"
 
 #. type: tabular
@@ -407,16 +422,31 @@ msgstr "\\textsc{Jun 2005}"
 
 #. type: tabular
 #: cv.pt.tex:127
+#| msgid ""
+#| "Estímulos por alto rendimento acadêmico \\footnotesize(Terceira melhor "
+#| "média de notas: 4.36 de 5)"
+msgid ""
+"Estímulos por alto rendimento acadêmico \\footnotesize(Terceira melhor média "
+"de notas: 4.55 de 5)"
+msgstr ""
+"Estímulos por alto rendimiento académico \\footnotesize(Tercera mejor media "
+"de notas: 4.36 de 5)"
+
+#. type: tabular
+#: cv.pt.tex:127
 msgid "\\textsc{Dez 2004}"
 msgstr "\\textsc{Dic 2004}"
 
 #. type: tabular
 #: cv.pt.tex:127
+#| msgid ""
+#| "Estímulos por alto rendimento acadêmico \\footnotesize(Segunda melhor "
+#| "média de notas: 4.36 de 5)"
 msgid ""
 "Estímulos por alto rendimento acadêmico \\footnotesize(Segunda melhor média "
-"de notas: 4.36 de 5)"
+"de notas: 4.65 de 5)"
 msgstr ""
-"Estímulos por alto rendimiento académico \\footnotesize(Segunda mejor média "
+"Estímulos por alto rendimiento académico \\footnotesize(Segunda mejor media "
 "de notas: 4.36 de 5)"
 
 #.  _________________________________________ Idiomas ________________________________________
@@ -448,7 +478,7 @@ msgstr "Fluido"
 #. type: tabular
 #: cv.pt.tex:137
 msgid "Prova \\textsc{CELPE-BRAS} (INEP) 2011: Nível Intermediário Superior"
-msgstr "Exámen \\textsc{CELPE-BRAS} (INEP) 2011: Nivel Intermédio Superior"
+msgstr "Examen \\textsc{CELPE-BRAS} (INEP) 2011: Nivel Intermedio Superior"
 
 #. type: tabular
 #: cv.pt.tex:137
@@ -458,12 +488,12 @@ msgstr "\\textsc{Inglés:}"
 #. type: tabular
 #: cv.pt.tex:137
 msgid "Intermediário"
-msgstr "Intermédio"
+msgstr "Intermedio"
 
 #. type: tabular
 #: cv.pt.tex:137
 msgid "Prova \\textsc{MET} (Michigan Institute) 2012: Nível B2"
-msgstr "Exámen \\textsc{MET} (Michigan Institute) 2012: Nivel B2"
+msgstr "Examen \\textsc{MET} (Michigan Institute) 2012: Nivel B2"
 
 #.  ___________________________________ Competências Técnicas ________________________________
 #. type: section{#2}
@@ -484,7 +514,7 @@ msgstr "Matlab, PHP, JavaScript, MySQL, PostgreSQL, OracleDB"
 #. type: tabular
 #: cv.pt.tex:147
 msgid "Conhecimentos Intermediários:"
-msgstr "Conocimientos Intermédios:"
+msgstr "Conocimientos Intermedios:"
 
 #. type: tabular
 #: cv.pt.tex:147
@@ -505,18 +535,18 @@ msgstr "\\LaTeX, Computación Evolutiva"
 #. type: section{#2}
 #: cv.pt.tex:156
 msgid "Interesses e Atividades"
-msgstr "Intereses y Atividades"
+msgstr "Intereses y Actividades"
 
 #. type: document
 #: cv.pt.tex:156
 msgid ""
 "Tecnologia, Software Livre, Programação, Educação, Pesquisa \\\\ "
 "Administração de Servidores Linux e Automatização de processos \\\\ Domótica "
-"e Eletrônica de baixo custo \\\\ Viagens, Cozinha"
+"e Eletrônica de baixo custo \\\\ Viagens, Culinária"
 msgstr ""
 "Tecnología, Software Libre, Programación, Educación, Investigación \\\\ "
 "Administración de Servidores Linux y Automatización de procesos \\\\ "
-"Domótica y Eletrónica de bajo costo \\\\ Viajes, Cocina"
+"Domótica y Electrónica de bajo costo \\\\ Viajes, Culinaria"
 
 #.  ________________________________________ Footnote ________________________________________
 #. type: document
