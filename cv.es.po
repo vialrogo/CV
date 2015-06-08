@@ -1,0 +1,531 @@
+# Traducción para Español
+# Victor Alberto Romero <vialrogo@gmail.com>, 2015.
+# Romero <vialrogo@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: Victor Alberto Romero\n"
+"POT-Creation-Date: 2015-06-08 11:58-0300\n"
+"PO-Revision-Date: 2015-06-08 11:55-0300\n"
+"Last-Translator: Romero <vialrogo@gmail.com>\n"
+"Language-Team: Espanhol; Castelhano <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#. type: Plain text
+#: cv.pt.tex:13
+msgid "\\RequirePackage{color,graphicx}"
+msgstr "\\RequirePackage{color,graphicx}"
+
+#.  Links
+#. type: hypersetup{#1}
+#: cv.pt.tex:17
+msgid "colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour"
+msgstr "colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour"
+
+#.  Fontes
+#. type: Plain text
+#: cv.pt.tex:21
+msgid ""
+"\\defaultfontfeatures{Mapping=tex-text} \\setmainfont[SmallCapsFont = Fontin "
+"SmallCaps]{Fontin}"
+msgstr ""
+"\\defaultfontfeatures{Mapping=tex-text} \\setmainfont[SmallCapsFont = Fontin "
+"SmallCaps]{Fontin}"
+
+#.  Secções
+#. type: Plain text
+#: cv.pt.tex:25
+msgid ""
+"\\titleformat{\\section}{\\Large\\scshape\\raggedright}{}{0em}{}"
+"[\\titlerule] \\titlespacing{\\section}{0pt}{3pt}{3pt}"
+msgstr ""
+"\\titleformat{\\section}{\\Large\\scshape\\raggedright}{}{0em}{}"
+"[\\titlerule] \\titlespacing{\\section}{0pt}{3pt}{3pt}"
+
+#.  _________________________________________ Título _________________________________________
+#. type: document
+#: cv.pt.tex:32
+msgid "{\\centering {\\Huge \\textsc{Victor Alberto Romero}}\\bigskip\\par}"
+msgstr "{\\centering {\\Huge \\textsc{Victor Alberto Romero}}\\bigskip\\par}"
+
+#.  _____________________________________ Dados Pessoais _____________________________________
+#. type: section{#2}
+#: cv.pt.tex:35
+msgid "Dados Pessoais"
+msgstr "Datos Personales"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "\\textsc{Local e data de nascimento}"
+msgstr "\\textsc{Lugar y fecha de nacimiento}"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "Cali, Colômbia | 26 Julho 1988"
+msgstr "Cali, Colombia | 26 Julio 1988"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "\\textsc{Endereço:}"
+msgstr "\\textsc{Dirección:}"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "Avenida Jaguaré, 287. Bloco Andrea, apartamento 33"
+msgstr "Avenida Jaguaré, 287. Bloco Andrea, apartamento 33"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "\\textsc{Telefono:}"
+msgstr "\\textsc{Teléfono:}"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "+55 (11) 95906~-~0632"
+msgstr "+55 (11) 95906~-~0632"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "\\textsc{Email:}"
+msgstr "\\textsc{Email:}"
+
+#. type: tabular
+#: cv.pt.tex:42
+msgid "\\href{mailto:vialrogo@gmail.com}{vialrogo@gmail.com}"
+msgstr "\\href{mailto:vialrogo@gmail.com}{vialrogo@gmail.com}"
+
+#.  _________________________________ Experiencia de Mercado _________________________________
+#. type: section{#2}
+#: cv.pt.tex:46
+msgid "Experiência de Mercado"
+msgstr "Experiencia Laboral"
+
+#. type: tabular
+#: cv.pt.tex:50
+msgid "\\textsc{Set 2012~-~Jan 2013}"
+msgstr "\\textsc{Set 2012~-~Ene 2013}"
+
+#. type: tabular
+#: cv.pt.tex:50 cv.pt.tex:54
+msgid "Professor na \\textsc{Universidad del Valle}, Colômbia"
+msgstr "Profesor en la \\textsc{Universidad del Valle}, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:50
+msgid "{Professor da disciplina Fundamentos de Linguagens de Programação.}"
+msgstr "{Profesor de la materia Fundamentos de Lenguajes de Programación.}"
+
+#. type: tabular
+#: cv.pt.tex:54
+msgid "\\textsc{Ago~-~Dez 2012}"
+msgstr "\\textsc{Ago~-~Dic 2012}"
+
+#. type: tabular
+#: cv.pt.tex:54
+msgid "{Professor da disciplina Arquitetura de Computadores I.}"
+msgstr "{Profesor de la materia Arqutectura de Computadores I.}"
+
+#. type: tabular
+#: cv.pt.tex:57
+msgid "\\textsc{Fev 2012~-~Jan 2013}"
+msgstr "\\textsc{Feb 2012~-~Ene 2013}"
+
+#. type: tabular
+#: cv.pt.tex:57
+msgid ""
+"Engenheiro de Suporte em \\textsc{Centro de Estudios Brasileros}, Colômbia"
+msgstr ""
+"Ingeniero de Soporte en el \\textsc{Centro de Estudios Brasileros}, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:57
+msgid "{Administração de software e hardware. Suporte a contabilidade.}"
+msgstr "{Administración de software y hardware. Soporte en contabilidad.}"
+
+#.  ________________________________________ Estágios ________________________________________
+#. type: section{#2}
+#: cv.pt.tex:63
+msgid "Estágios"
+msgstr "Monitorías"
+
+#. type: tabular
+#: cv.pt.tex:66
+msgid "\\textsc{Jun 2014~-~Dez 2014}"
+msgstr "\\textsc{Jun 2014~-~Dic 2014}"
+
+#. type: tabular
+#: cv.pt.tex:66
+msgid "Monitor na \\textsc{Universidade de São Paulo}, Brasil"
+msgstr "Monitor en la \\textsc{Universidade de São Paulo}, Brasil"
+
+#. type: tabular
+#: cv.pt.tex:66
+msgid "{Monitor da disciplina Introdução à Computação}"
+msgstr "{Monitor de la materia Introducción a la Computación}"
+
+#. type: tabular
+#: cv.pt.tex:69
+msgid "\\textsc{Jun 2010~-~Dez 2010}"
+msgstr "\\textsc{Jun 2010~-~Dic 2010}"
+
+#. type: tabular
+#: cv.pt.tex:69 cv.pt.tex:72 cv.pt.tex:75 cv.pt.tex:81
+msgid "Monitor na \\textsc{Universidad del Valle}, Colômbia"
+msgstr "Monitor en la \\textsc{Universidad del Valle}, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:69 cv.pt.tex:75
+msgid "{Monitor da disciplina Sistemas de Informação.}"
+msgstr "{Monitor de la materia Sistemas de Información.}"
+
+#. type: tabular
+#: cv.pt.tex:72
+msgid "\\textsc{Fev 2010~-~Jun 2010}"
+msgstr "\\textsc{Feb 2010~-~Jun 2010}"
+
+#. type: tabular
+#: cv.pt.tex:72
+msgid "{Monitor da disciplina Fundamentos de Linguagens de Programação.}"
+msgstr "{Monitor de la materia Fundamentos de Lenguajes de Programación.}"
+
+#. type: tabular
+#: cv.pt.tex:75
+msgid "\\textsc{Jun 2009~-~Dez 2009}"
+msgstr "\\textsc{Jun 2009~-~Dic 2009}"
+
+#. type: tabular
+#: cv.pt.tex:78
+msgid "\\textsc{Jun 2008~-~Dez 2008}"
+msgstr "\\textsc{Jun 2008~-~Dic 2008}"
+
+#. type: tabular
+#: cv.pt.tex:78
+msgid "Pesquisador na \\textsc{Universidad del Valle}, Colômbia"
+msgstr "Investigador en la \\textsc{Universidad del Valle}, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:78
+msgid "{Manual para criação de aplicações usando SmartCards}"
+msgstr "{Manual para la creación de aplicaciones usando SmartCards}"
+
+#. type: tabular
+#: cv.pt.tex:81
+msgid "\\textsc{Fev 2008~-~Jun 2008}"
+msgstr "\\textsc{Feb 2008~-~Jun 2008}"
+
+#. type: tabular
+#: cv.pt.tex:81
+msgid "{Monitor da disciplina Introdução à Programação Orientada a Objetos}"
+msgstr ""
+"{Monitor de la materia Introducción a la Programación Orientada a Objetos}"
+
+#.  ________________________________________ Educação ________________________________________
+#. type: section{#2}
+#: cv.pt.tex:86
+msgid "Educação"
+msgstr "Educación"
+
+#. type: tabular
+#: cv.pt.tex:93
+msgid "\\textsc{Ago 2014}"
+msgstr "\\textsc{Ago 2014}"
+
+#. type: tabular
+#: cv.pt.tex:93
+msgid ""
+"\\textsc{Mestrado em Ciência da Computação}, Universidade de São Paulo, "
+"Brasil"
+msgstr ""
+"\\textsc{Maestría en Ciencias de la Computación}, Universidade de São Paulo, "
+"Brasil"
+
+#. type: tabular
+#: cv.pt.tex:93
+msgid "Incompleto | Ênfase: Otimização"
+msgstr "Incompleto | Éfasis: Optimización"
+
+#. type: tabular
+#: cv.pt.tex:93
+msgid ""
+"Dissertação: ``\\textsc{Uso de programação não-linear para a resolução do "
+"problema}"
+msgstr ""
+"Tesis: ``\\textsc{Uso de programação não-linear para a resolução do problema}"
+
+#. type: tabular
+#: cv.pt.tex:93
+msgid "\\textsc{de empacotamento de círculos aninhados}''"
+msgstr "\\textsc{de empacotamento de círculos aninhados}''"
+
+#. type: tabular
+#: cv.pt.tex:93
+msgid "Orientador: Prof.~Dr.~Ernesto Birgin"
+msgstr "Director: Prof.~Ernesto Birgin, PhD."
+
+#. type: tabular
+#: cv.pt.tex:99
+msgid "\\textsc{Ago 2012}"
+msgstr "\\textsc{Ago 2012}"
+
+#. type: tabular
+#: cv.pt.tex:99
+msgid ""
+"\\textsc{Graduação em Engenharia da Computação}, Universidad del Valle, "
+"Colômbia"
+msgstr ""
+"\\textsc{Pregrado en Ingeniería de Sistemas}, Universidad del Valle, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:99 cv.pt.tex:106
+msgid "Ênfase: Redes de Comunicações"
+msgstr "Énfasis: Redes de Comunicaciones"
+
+#. type: tabular
+#: cv.pt.tex:99
+msgid ""
+"Dissertação: ``\\textsc{Análisis del flujo de datos en redes de mediante "
+"teoría del caos}''"
+msgstr ""
+"Tesis: ``\\textsc{Análisis del flujo de datos en redes de mediante teoría "
+"del caos}''"
+
+#. type: tabular
+#: cv.pt.tex:99
+msgid "Orientador: Prof.~Dr.~Angel García Baños"
+msgstr "Director: Prof.~Angel García Baños, PhD."
+
+#. type: tabular
+#: cv.pt.tex:106
+msgid "\\textsc{Ago 2010}"
+msgstr "\\textsc{Ago 2010}"
+
+#. type: tabular
+#: cv.pt.tex:106
+msgid ""
+"\\textsc{Graduação em Engenharia Eletrônica}, Universidad del Valle, Colômbia"
+msgstr ""
+"\\textsc{Pregrado en Ingeniería Eletrónica}, Universidad del Valle, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:106
+msgid ""
+"Dissertação: ``\\textsc{Diseño e implementación de una herramienta software "
+"para la}"
+msgstr ""
+"Tesis: ``\\textsc{Diseño e implementación de una herramienta software para "
+"la}"
+
+#. type: tabular
+#: cv.pt.tex:106
+msgid ""
+"\\textsc{supervisión y registro de llamadas en centralitas telefónicas}''"
+msgstr ""
+"\\textsc{supervisión y registro de llamadas en centralitas telefónicas}''"
+
+#. type: tabular
+#: cv.pt.tex:106
+msgid "Orientador: Prof.~Leandro Villa, Msc."
+msgstr "Director: Prof.~Leandro Villa, Msc."
+
+#.  ____________________________________ Cursos Adicionais ___________________________________
+#. type: section{#2}
+#: cv.pt.tex:112
+msgid "Cursos Adicionais"
+msgstr "Cursos Adicionales"
+
+#. type: tabular
+#: cv.pt.tex:116
+msgid "\\textsc{Mai 2011}"
+msgstr "\\textsc{May 2011}"
+
+#. type: tabular
+#: cv.pt.tex:116
+msgid ""
+"\\textsc{Instalação e Administração de servidores HP EVA 4400 y HP Blade.}"
+msgstr ""
+"\\textsc{Instalación y Administración de servidores HP EVA 4400 y HP Blade.}"
+
+#. type: tabular
+#: cv.pt.tex:116
+msgid "Universidade del Valle, Colômbia"
+msgstr "Universidade del Valle, Colombia"
+
+#. type: tabular
+#: cv.pt.tex:116
+msgid "Curso curto: 24 horas"
+msgstr "Curso corto: 24 horas"
+
+#.  ______________________________________ Certificados ______________________________________
+#. type: section{#2}
+#: cv.pt.tex:121
+msgid "Distinções"
+msgstr "Distinciones"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid "\\textsc{Jun 2011}"
+msgstr "\\textsc{Jun 2011}"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid ""
+"Estímulos por alto rendimento acadêmico \\footnotesize(Melhor média de "
+"notas: 4.36 de 5)"
+msgstr ""
+"Estímulos por alto rendimiento académico \\footnotesize(Mejor média de "
+"notas: 4.36 de 5)"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid "\\textsc{Jun 2010}"
+msgstr "\\textsc{Jun 2010}"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid "\\textsc{Dez 2005}"
+msgstr "\\textsc{Dic 2005}"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid ""
+"Estímulos por alto rendimento acadêmico \\footnotesize(Terceira melhor média "
+"de notas: 4.36 de 5)"
+msgstr ""
+"Estímulos por alto rendimiento académico \\footnotesize(Tercera mejor média "
+"de notas: 4.36 de 5)"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid "\\textsc{Jun 2005}"
+msgstr "\\textsc{Jun 2005}"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid "\\textsc{Dez 2004}"
+msgstr "\\textsc{Dic 2004}"
+
+#. type: tabular
+#: cv.pt.tex:127
+msgid ""
+"Estímulos por alto rendimento acadêmico \\footnotesize(Segunda melhor média "
+"de notas: 4.36 de 5)"
+msgstr ""
+"Estímulos por alto rendimiento académico \\footnotesize(Segunda mejor média "
+"de notas: 4.36 de 5)"
+
+#.  _________________________________________ Idiomas ________________________________________
+#. type: section{#2}
+#: cv.pt.tex:133
+msgid "Idiomas"
+msgstr "Idiomas"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "\\textsc{Espanhol:}"
+msgstr "\\textsc{Español:}"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "Língua Nativa"
+msgstr "Lengua Nativa"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "\\textsc{Português:}"
+msgstr "\\textsc{Portugués:}"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "Fluente"
+msgstr "Fluido"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "Prova \\textsc{CELPE-BRAS} (INEP) 2011: Nível Intermediário Superior"
+msgstr "Exámen \\textsc{CELPE-BRAS} (INEP) 2011: Nivel Intermédio Superior"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "\\textsc{Inglês:}"
+msgstr "\\textsc{Inglés:}"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "Intermediário"
+msgstr "Intermédio"
+
+#. type: tabular
+#: cv.pt.tex:137
+msgid "Prova \\textsc{MET} (Michigan Institute) 2012: Nível B2"
+msgstr "Exámen \\textsc{MET} (Michigan Institute) 2012: Nivel B2"
+
+#.  ___________________________________ Competências Técnicas ________________________________
+#. type: section{#2}
+#: cv.pt.tex:143
+msgid "Competências Técnicas"
+msgstr "Competencias Técnicas"
+
+#. type: tabular
+#: cv.pt.tex:147
+msgid "Conhecimentos Básicos:"
+msgstr "Conocimientos Básicos:"
+
+#. type: tabular
+#: cv.pt.tex:147
+msgid "Matlab, PHP, JavaScript, MySQL, PostgreSQL, OracleDB"
+msgstr "Matlab, PHP, JavaScript, MySQL, PostgreSQL, OracleDB"
+
+#. type: tabular
+#: cv.pt.tex:147
+msgid "Conhecimentos Intermediários:"
+msgstr "Conocimientos Intermédios:"
+
+#. type: tabular
+#: cv.pt.tex:147
+msgid "Java, C, C++, Qt, Python, Bash, Otimização Não-linear, Linux"
+msgstr "Java, C, C++, Qt, Python, Bash, Optimización No-lineal, Linux"
+
+#. type: tabular
+#: cv.pt.tex:147
+msgid "Conhecimentos Avançados:"
+msgstr "Conocimientos Avanzados:"
+
+#. type: tabular
+#: cv.pt.tex:147
+msgid "\\LaTeX, Computação Evolutiva"
+msgstr "\\LaTeX, Computación Evolutiva"
+
+#.  _________________________________ Interesses e Atividades ________________________________
+#. type: section{#2}
+#: cv.pt.tex:156
+msgid "Interesses e Atividades"
+msgstr "Intereses y Atividades"
+
+#. type: document
+#: cv.pt.tex:156
+msgid ""
+"Tecnologia, Software Livre, Programação, Educação, Pesquisa \\\\ "
+"Administração de Servidores Linux e Automatização de processos \\\\ Domótica "
+"e Eletrônica de baixo custo \\\\ Viagens, Cozinha"
+msgstr ""
+"Tecnología, Software Libre, Programación, Educación, Investigación \\\\ "
+"Administración de Servidores Linux y Automatización de procesos \\\\ "
+"Domótica y Eletrónica de bajo costo \\\\ Viajes, Cocina"
+
+#.  ________________________________________ Footnote ________________________________________
+#. type: document
+#: cv.pt.tex:161
+msgid "\\hrulefill\\\\ \\center{\\footnotesize{\\today}}"
+msgstr "\\hrulefill\\\\ \\center{\\footnotesize{\\today}}"
+
+#~ msgid "\\textsc{jun 2005}"
+#~ msgstr "\\textsc{Jun 2005}"
+
+#~ msgid "Orientador: Prof.~Fábio Guerrero"
+#~ msgstr "Orientador: Prof.~Fábio Guerrero"
