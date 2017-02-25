@@ -48,7 +48,7 @@ To update your translation when the original master.doc file has changed, use th
 
 (Please refer to po4a-updatepo(1) for more details)
 
-Naturally, the new paragraph in the document won't get magically translated in the PO file with this operation, and you'll need to update the PO file manually. Likewise, you may have to rework the translation for paragraphs which were modified a bit. To make sure you won't miss any of them, they are marked as ``fuzzy'' during the process and you have to remove this marker before the translation can be used by po4a-translate. As for the initial translation, the best is to use your favorite PO editor here.
+Naturally, the new paragraph in the document won't get magically translated in the PO file with this operation, and you'll need to update the PO file manually. Likewise, you may have to rework the translation for paragraphs which were modified a bit. To make sure you won't miss any of them, they are marked as ``fuzzy`` during the process and you have to remove this marker before the translation can be used by po4a-translate. As for the initial translation, the best is to use your favorite PO editor here.
 
 Once your PO file is up-to-date again, without any untranslated or fuzzy string left, you can generate a translated documentation file, as explained in the previous section.  
 
