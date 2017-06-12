@@ -1,7 +1,7 @@
 BASE_NAME = cv
 LATEX     = latex
 PDFLATEX  = xelatex
-LANG?			= pt
+LANG?	  = pt
 
 pdf: $(BASE_NAME).$(LANG).tex 
 	$(PDFLATEX) $<
