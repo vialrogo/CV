@@ -2,14 +2,16 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{marvosym}
 \usepackage{fontspec}
 \usepackage{xunicode,xltxtra,url,parskip}
 \RequirePackage{color,graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[big]{layaureo}
 \usepackage{titlesec}
 \usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{booktabs}
 
 % Links
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
@@ -33,40 +35,37 @@
 % _____________________________________ Dados Pessoais _____________________________________
 \section{Dados Pessoais}
 
-\begin{tabular}{rl}
+\begin{longtable}{rl}
   \textsc{Local e data de nascimento}   & Cali, Colômbia  | 26 Julho 1988 \\
   \textsc{Endereço:}                    & Avenida Jaguaré, 297. Bloco Andrea, apartamento 83\\
                                         & São Paulo, Brasil\\
   \textsc{Telefone:}                    & +55 (11) 95906 0632 \\
   \textsc{Email:}                       & \href{mailto:vialrogo@gmail.com}{vialrogo@gmail.com} \\
                                         & \href{mailto:vialrogo@usp.br}{vialrogo@usp.br} \\
-\end{tabular}
+\end{longtable}
 
 % _________________________________ Projetos Finalizados ___________________________________
 \section{Projetos Relevantes Finalizados}
-\begin{tabular}{rl}
 
+\begin{longtable}{rl}
     \textsc{Ago 2016~-~Dez 2016}    & Criação de um sistema de calibração automático para hidrofones em \\
                                     & banda de frequência de 3kHz a 200kHz \\
                                     &\footnotesize{Resumo: O projeto foi desenvolvido em duas etapas. A primeira etapa foi a adequação}\\
                                     &\footnotesize{de um tanque de $27m^3$. A segunda etapa foi a montagem da instrumentação para a}\\
                                     &\footnotesize{projeção e recepção do sinal. Foram usados como hidrofones de referência}\\
                                     &\footnotesize{hidrofones Brüel \& Kjær. Todo o Software foi desenvolvido em Matlab.} \\
-                                    &\\
-\end{tabular}
-\begin{tabular}{rl}
+\end{longtable}
 
+\begin{longtable}{rl}
     \textsc{Mai 2016~-~Nov 2016}    & Monitoramento de eventos acústicos (dragagem) do porto de Sepetiba\\
                                     &\footnotesize{Resumo: O objetivo desse projeto foi analisar o impacto acústico durante o processo}\\
                                     &\footnotesize{de dragagem na baía de Sepetiba. Foram realizadas gravações das pressões sonoras antes}\\
                                     &\footnotesize{e durante o processo de dragagem. Após a coleta dos dados, os mesmos foram processados}\\ 
                                     &\footnotesize{e analisados através de SPLs e espectrogramas. Todos os softwares de análise foram }\\
                                     &\footnotesize{desenvolvidos em Matlab e Shell Script.} \\
-                                    &\\
+\end{longtable}
 
-\end{tabular}
-\begin{tabular}{rl}
-
+\begin{longtable}{rl}
     \textsc{Set 2016~-~Fev 2017}    & Monitoramento acústico terrestre da floresta estadual Águas de Santa \\
                                     & Bárbara, São Paulo,  Brasil \\
                                     &\footnotesize{Resumo: O objetivo é o monitoramento acústico contínuo de 4 biomas do cerrado brasileiro:}\\ 
@@ -74,46 +73,39 @@
                                     &\footnotesize{4 esquipamentos para o monitoramento, com alimentação via bateria e energia solar. Foram}\\
                                     &\footnotesize{utilizados sistemas embarcados e sistemas microprocessados. Os dados foram coletados}\\ 
                                     &\footnotesize{e gerou-se espectrogramas diários de cada bioma.}\\
-                                    &\\
-\end{tabular}
+\end{longtable}
+
+\begin{longtable}{rl}
+    \textsc{Out 2016~-~Ago 2017}    & Desenvolvimento de um sistema de calibração automático de microfones e \\
+                                    & hidrofones no ar\\ 
+                                    &\footnotesize{Resumo: O objetivo é a adaptação do sistema de calibração na água para o ar, visando}\\ 
+                                    &\footnotesize{contornar as limitações dos hidrofones nesse meio. Criou-se um sistema que permite}\\ 
+                                    &\footnotesize{gerar as curvas de respostas para baixas frequências (20Hz – 20KHz), assim como um}\\ 
+                                    &\footnotesize{sistema de calibração em unidades absolutas a través de comparação.}\\
+\end{longtable}
 
 % _________________________________ Projetos Em Andamento  _________________________________
 \section{Projetos Relevantes em Andamento}
-\begin{tabular}{rl}
-
+\begin{longtable}{rl}
     \textsc{Jun 2016~-~Atual}   & Paisagens acústicas submarinas no litoral de São Paulo\\
                                 &\footnotesize{Auxílio Pesquisa FAPESP no. 2016/02175--0.}\\
                                 &\footnotesize{O projeto visa o monitoramento de longa duração da paisagem acústica submarina em duas}\\ 
                                 &\footnotesize{Unidades de Conservação (UC) Marinhas no centro do litoral de São Paulo; Parque Estadual}\\  
                                 &\footnotesize{Marinho da Laje de Santos e Estação Ecológica Tupinambás. O monitoramento será realizado}\\ 
                                 &\footnotesize{tilizando um equipamento de monitoramento de acústica submarina autônomo, desenvolvido}\\ 
-                                &\footnotesize{elo próprio laboratório, e chamado de OceanPod. A análise do banco de dados permitirá}\\ 
+                                &\footnotesize{pelo próprio laboratório, e chamado de OceanPod. A análise do banco de dados permitirá}\\ 
                                 &\footnotesize{bter, pioneiramente, um conhecimento sobre a paisagem acústica submarina no litoral de São}\\
                                 &\footnotesize{aulo, a variação dos níveis de pressão sonora ao longo do tempo, a eventual correção}\\ 
                                 &\footnotesize{spacial entre as UCS, a identificação e estudo das principais fontes sonoras presentes,}\\ 
                                 &\footnotesize{lém de fornecer importantes informações sobre impactos antrópicos para a gestão das}\\ 
                                 &\footnotesize{nidades de Conservação.}\\
-                                &\\
-\end{tabular}
-\begin{tabular}{rl}
+\end{longtable}
 
-
-    \textsc{Out 2016~-~Atual}   & Desenvolvimento de um sistema de calibração automático de microfones e \\
-                                & hidrofones no ar\\ 
-                                &\footnotesize{Resumo: O objetivo é a adaptação do sistema de calibração na água para o ar, visando}\\ 
-                                &\footnotesize{contornar as limitações dos hidrofones nesse meio. Espera-se obter um sistema que permite}\\ 
-                                &\footnotesize{gerar as curvas de respostas para baixas frequências (20Hz – 20KHz), assim como um}\\ 
-                                &\footnotesize{sistema de calibração em unidades absolutas.}\\
-                                &\\
-\end{tabular}
-\begin{tabular}{rl}
-
-
+\begin{longtable}{rl}
     \textsc{Jan 2017~-~Atual}   & Criação de um sistema de detecção automático de botos\\
                                 &\footnotesize{Resumo: O objetivo é a criação de um sistema que permita a detecção de eventos acústicos} \\ 
                                 &\footnotesize{específicos (assobios de botos) a partir de gravações de áudio de longa duração.} \\
-                                &\\
-\end{tabular}
+\end{longtable}
 
 % _________________________________ Projetos Em Andamento  _________________________________
 \section{Atividades Relevantes Recentes}
@@ -130,7 +122,7 @@
 
 % _________________________________ Experiência de Mercado _________________________________
 \section{Experiência Profissional}
-\begin{tabular}{rl}
+\begin{longtable}{rl}
 
     \textsc{Ago 2016~-~Atual}       & Pesquisador na \textsc{Universidade de São Paulo~-~USP}, Brasil \\
                                     &\footnotesize{Estudante de mestrado e pesquisador do laboratório LACMAM} \\
@@ -154,11 +146,11 @@
                                     &\footnotesize{Administração de software e hardware. Suporte a contabilidade.} \\
                                     &\\
 
-\end{tabular}
+\end{longtable}
 
 % ________________________________________ Estágios ________________________________________
 \section{Estágios}
-\begin{tabular}{rl}
+\begin{longtable}{rl}
 
     \textsc{Nov 2015~-~Ago 2016}  & Pesquisador na \textsc{Universidade de São Paulo}, Brasil \\
                                   &\footnotesize{Laboratório de Acústica e Meio Ambiente} \\
@@ -181,10 +173,10 @@
     \textsc{Fev 2008~-~Jun 2008}  & Monitor na \textsc{Universidad del Valle}, Colômbia \\
                                   &\footnotesize{Monitor da disciplina Introdução à Programação Orientada a Objetos} \\
 
-\end{tabular}
+\end{longtable}
 % ________________________________________ Educação ________________________________________
 \section{Educação}
-\begin{tabular}{rl}	
+\begin{longtable}{rl}	
 
     \textsc{Ago 2016~-~Atual}       & Mestrado em Engenharia Mecânica\\
                                     & Universidade de São Paulo, Brasil \\
@@ -217,11 +209,11 @@
                                     & \textsc{para la supervisión y registro de llamadas en centralitas telefónicas}'' \\
                                     & Orientador: Prof.~Leandro Villa, Msc. \\
 
-\end{tabular}
+\end{longtable}
 
 % _______________________________________ Distinções _______________________________________
 \section{Distinções}
-\begin{tabular}{rl}	
+\begin{longtable}{rl}	
 
     \textsc{Jun 2011} & \textsc{Estímulos por alto rendimento acadêmico (Melhor média de notas: 4.36 de 5)} \\
     \textsc{Jun 2010} & \textsc{Estímulos por alto rendimento acadêmico (Melhor média de notas: 4.41 de 5)} \\
@@ -229,21 +221,21 @@
     \textsc{Jun 2005} & \textsc{Estímulos por alto rendimento acadêmico (Melhor média de notas: 4.55 de 5)} \\
     \textsc{Dez 2004} & \textsc{Estímulos por alto rendimento acadêmico (Melhor média de notas: 4.65 de 5)} \\
 
-\end{tabular}
+\end{longtable}
 
 % ____________________________________ Cursos Adicionais ___________________________________
 \section{Cursos Adicionais}
-\begin{tabular}{rl}	
+\begin{longtable}{rl}	
 
   \textsc{Mai 2011} & \textsc{Instalação e Administração de servidores HP EVA 4400 y HP Blade.} \\
                     & Universidad del Valle, Colômbia \\
                     & Carga horária: 24 horas \\
 
-\end{tabular}
+\end{longtable}
 
 % _________________________________________ Idiomas ________________________________________
 \section{Idiomas}
-\begin{tabular}{rl}
+\begin{longtable}{rl}
 
     \textsc{Espanhol:}      & Língua Nativa\\
                             &\\
@@ -256,11 +248,11 @@
                             & Prova \textsc{MET} (Michigan Institute) 2012: Nível B2 \\
                             &\\
 
-\end{tabular}
+\end{longtable}
 
 % ___________________________________ Competências Técnicas ________________________________
 \section{Competências Técnicas}
-\begin{tabular}{rl}
+\begin{longtable}{rl}
 
     Conhecimentos Avançados:        & Matlab, Python, C, C++, Qt, Bash, \LaTeX, Linux\\
                                     & Machine Learning, Raspberry PI\\
@@ -269,7 +261,7 @@
     Conhecimentos Intermediários:   & R, Java, PHP, JavaScript, Otimização Não-linear, SQL\\
                                     &\\
 
-\end{tabular}
+\end{longtable}
 
 % _________________________________ Interesses e Atividades ________________________________
 \section{Outros Interesses}
